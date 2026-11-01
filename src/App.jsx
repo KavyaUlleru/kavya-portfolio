@@ -18,90 +18,202 @@ const skills = [
 
 const projects = [
   {
-    id: 'event-mgmt',
-    name: 'Event Management System',
-    category: 'Full Stack & Database Application',
-    tag: 'Web Application',
+    id: 'knowledge-gap',
+    name: 'Organizational Knowledge Gap Intelligence Platform',
+    category: 'Full Stack & Enterprise Intelligence',
+    tag: 'Infosys Internship Project',
     description:
-      'A web-based platform for organizing events, managing attendee registrations, and scheduling sessions with structured data persistence.',
-    stack: ['JavaScript', 'HTML5', 'CSS3', 'SQL & DB', 'REST APIs'],
-    githubUrl: 'https://github.com/KavyaUlleru/Event_Management_System',
+      'A platform designed to identify organizational skill gaps and understand employee training needs through full-stack architecture, backend integration, and tested APIs.',
+    stack: ['React', 'Tailwind CSS', 'Java', 'Spring Boot', 'PostgreSQL', 'Postman'],
+    githubUrl: 'https://github.com/KavyaUlleru/Organizational-Knowledge-Gap-Intelligence-Platform',
     details: {
       overview:
-        'Developed an end-to-end event management application designed to simplify how academic and professional events are scheduled, published, and attended. It handles user registrations, schedule coordination, and attendee record tracking through an intuitive dashboard.',
+        'Developed as part of the Infosys Springboard Virtual Internship 7.0, this project focuses on identifying organizational skill gaps and understanding employee training needs. It provided an opportunity to implement full-stack development, backend integration, database operations, and API testing.',
       keyFeatures: [
-        'User registration and attendee sign-up flow with validation',
-        'Interactive calendar and schedule viewer for multi-track sessions',
-        'Admin dashboard to manage event listings and view registered participants',
-        'Clean responsive layout that works seamlessly across laptops and mobile screens',
+        'Contributed to an Organizational Knowledge Gap Intelligence Platform to map skill requirements',
+        'Built full-stack workflows with backend integration in Java and Spring Boot',
+        'Implemented database operations and schema management in PostgreSQL',
+        'Conducted rigorous API endpoint testing and validation using Postman',
+        'Applied software development and testing practices to improve overall application functionality',
       ],
-      technologies: ['JavaScript (ES6+)', 'SQL / Relational Data Model', 'HTML5 & CSS3', 'Local Storage & API Integration'],
+      technologies: ['React', 'Tailwind CSS', 'Java', 'Spring Boot', 'PostgreSQL', 'Postman', 'REST APIs', 'Git'],
       whatLearned:
-        'Gained hands-on experience in modeling relational data for events and users, implementing client-side validation, designing intuitive user workflows, and handling asynchronous requests.',
+        'Gained hands-on exposure to enterprise full-stack development, Spring Boot backend integration, relational database management with PostgreSQL, and automated API testing with Postman.',
+    },
+  },
+  {
+    id: 'recipe-finder',
+    name: 'Interactive Recipe Finder',
+    category: 'Front-End Web Application',
+    tag: 'AICTE Internship Project',
+    description:
+      'A responsive web application providing an intuitive interface for browsing recipes, discovering culinary ideas, and viewing recipe details seamlessly across devices.',
+    stack: ['HTML5', 'CSS3', 'JavaScript', 'Responsive UI'],
+    githubUrl: 'https://github.com/KavyaUlleru/Interactive_Recipe_Finder',
+    details: {
+      overview:
+        'Developed during the AICTE Front-End Web Development Internship with Edunet Foundation. Designed to provide a simple, beautiful interface for browsing recipes, searching by ingredients, and viewing organized cooking information.',
+      keyFeatures: [
+        'Developed an Interactive Recipe Finder using HTML, CSS, and modern JavaScript',
+        'Designed a responsive interface with intuitive navigation and organized recipe details',
+        'Implemented interactive features for easy recipe discovery and instant search filtering across devices',
+        'Crafted smooth UI transitions and micro-interactions for an engaging user experience',
+      ],
+      technologies: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'Flexbox & CSS Grid', 'Responsive Layouts', 'Git'],
+      whatLearned:
+        'Gained practical experience in webpage design, responsive layouts, DOM manipulation, and JavaScript-based interactivity for cross-browser web applications.',
     },
   },
   {
     id: 'music-app',
-    name: 'Music Playlist Application',
+    name: 'Music Playlist App',
     category: 'Interactive Audio & Media Manager',
-    tag: 'Interactive Web App',
+    tag: 'Web Application',
     description:
-      'An interactive music application that lets users create personalized playlists, search and filter tracks, and control audio playback smoothly.',
-    stack: ['JavaScript', 'HTML5 Audio', 'CSS3 Flex/Grid', 'Responsive UI'],
+      'A web-based application to create and manage music playlists, enabling users to add, remove, and organize songs efficiently with responsive playback controls.',
+    stack: ['HTML5', 'CSS3', 'JavaScript', 'Web Audio API'],
     githubUrl: 'https://github.com/KavyaUlleru/MusicPlayList_App',
     details: {
       overview:
-        'Built an engaging web-based audio player and playlist curator that enables users to manage their track library, construct customized playlists, and enjoy smooth playback controls with real-time UI feedback.',
+        'Built a web-based application to create and manage music playlists. Enabled users to add, remove, and organize songs efficiently while enjoying a responsive interface designed using HTML, CSS, and JavaScript.',
       keyFeatures: [
-        'Full playback controls: Play, Pause, Next, Previous, Progress seeking, and Volume slider',
-        'Dynamic search and filtering by song title, artist, and genre',
-        'Interactive queue management with instant addition and removal of tracks',
-        'State-driven audio controls with responsive glassmorphism player bar',
+        'Built a web-based application to create and manage music playlists',
+        'Enabled users to add, remove, and organize songs efficiently',
+        'Designed a responsive interface using HTML, CSS, and JavaScript',
+        'Dynamic queue controls, track search, and real-time audio playback feedback',
       ],
       technologies: ['Vanilla JavaScript', 'HTML5 Web Audio API', 'CSS Grid & Flexbox', 'Persistent Browser Storage'],
       whatLearned:
         'Mastered DOM manipulation, event-driven programming, working with the HTML5 Audio interface, and building responsive user interfaces without heavy third-party libraries.',
     },
   },
-  // Future projects will be added here!
+  {
+    id: 'event-mgmt',
+    name: 'Event Management System',
+    category: 'Full Stack & Database Application',
+    tag: 'Web Application',
+    description:
+      'A web-based system for managing event registrations, scheduling events, handling user data, and streamlining coordination through an intuitive interface.',
+    stack: ['HTML5', 'CSS3', 'JavaScript', 'SQL & DB', 'REST APIs'],
+    githubUrl: 'https://github.com/KavyaUlleru/Event_Management_System',
+    details: {
+      overview:
+        'Developed a web-based system for managing event registrations. Designed modules for scheduling events and handling user data, streamlining event coordination through an intuitive and responsive interface.',
+      keyFeatures: [
+        'Developed a web-based system for managing event registrations',
+        'Designed modules for scheduling events and handling user data',
+        'Streamlined event coordination through an intuitive interface',
+        'Designed a responsive interface using HTML, CSS, and JavaScript with structured database storage',
+      ],
+      technologies: ['JavaScript (ES6+)', 'SQL / Relational Data Model', 'HTML5 & CSS3', 'REST API Integration'],
+      whatLearned:
+        'Gained hands-on experience in modeling relational data for events and users, implementing client-side validation, designing intuitive user workflows, and handling asynchronous requests.',
+    },
+  },
 ]
 
 const experience = [
   {
-    title: 'Front-End Web Development Intern',
-    place: 'AICTE • Edunet Foundation',
-    period: '08/2025 – 09/2025',
-    type: 'Internship',
-    text: 'Developed responsive web pages and reusable UI components. Practiced modern frontend standards, responsive design principles, and collaborative version control using HTML, CSS, and JavaScript.',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'Responsive UI', 'Git'],
+    id: 'infosys-springboard',
+    title: 'Infosys Springboard Virtual Internship 7.0',
+    place: 'Infosys Springboard',
+    period: '06/2026 – 08/2026',
+    type: 'Virtual Internship',
+    projectName: 'Organizational Knowledge Gap Intelligence Platform',
+    githubUrl: 'https://github.com/KavyaUlleru/Organizational-Knowledge-Gap-Intelligence-Platform',
+    text: 'Participated in the Infosys Springboard Virtual Internship 7.0, gaining exposure to software development through a team-based project. The project focuses on identifying organizational skill gaps and understanding employee training needs. It provided an opportunity to learn about full-stack development, backend integration, database operations, and API testing.',
+    highlights: [
+      'Contributed to an Organizational Knowledge Gap Intelligence Platform.',
+      'Supported application development, backend integration, and API testing.',
+      'Applied software development and testing practices to improve application functionality.',
+    ],
+    skills: ['React', 'Tailwind CSS', 'Java', 'Spring Boot', 'PostgreSQL', 'Postman', 'REST APIs', 'Git'],
+    details: {
+      role: 'Full Stack & Backend Contributor',
+      projectOverview:
+        'Developed an intelligent platform designed to analyze organizational skill gaps across departments and evaluate employee training needs. It provides management with actionable insights to optimize workforce upskilling and training investments.',
+      contributions: [
+        'Contributed to the Organizational Knowledge Gap Intelligence Platform architecture and feature implementation.',
+        'Supported full-stack application development with Java and Spring Boot backend integration.',
+        'Implemented PostgreSQL database operations and entity relationship models for skill tracking.',
+        'Executed REST API endpoint verification, request validation, and response testing in Postman.',
+        'Applied software development and testing best practices to improve platform functionality and stability.',
+      ],
+      technologies: ['React', 'Tailwind CSS', 'Java', 'Spring Boot', 'PostgreSQL', 'Postman', 'REST APIs', 'Git'],
+      learnings:
+        'Gained valuable exposure to professional software engineering workflows, collaborative team development, full-stack integration with Spring Boot & React, enterprise database handling in PostgreSQL, and API testing methodologies with Postman.',
+    },
   },
   {
-    title: 'AI Intern',
+    id: 'aicte-edunet',
+    title: 'Front-End Web Development Intern – AICTE',
     place: 'Edunet Foundation',
-    period: '04/2025 – 05/2025',
-    type: 'Internship',
-    text: 'Gained practical exposure to core Machine Learning algorithms, data preprocessing, model evaluation fundamentals, and ethical considerations in artificial intelligence.',
-    skills: ['Python', 'Machine Learning Basics', 'Data Preprocessing', 'AI Ethics'],
+    period: '08/2025 – 09/2025',
+    type: 'Virtual Internship',
+    projectName: 'Interactive Recipe Finder',
+    githubUrl: 'https://github.com/KavyaUlleru/Interactive_Recipe_Finder',
+    text: 'Completed a front-end web development internship focused on building responsive and interactive web applications. Developed the Interactive Recipe Finder project to provide a simple interface for browsing recipes and viewing recipe information. Gained practical experience in webpage design, responsive layouts, and JavaScript-based interactivity.',
+    highlights: [
+      'Developed an Interactive Recipe Finder using HTML, CSS, and JavaScript.',
+      'Designed a responsive interface with intuitive navigation and organized recipe details.',
+      'Implemented interactive features for easy recipe discovery across devices.',
+    ],
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'Responsive UI', 'DOM Manipulation', 'Git'],
+    details: {
+      role: 'Front-End Developer',
+      projectOverview:
+        'Engineered an interactive recipe browsing application that makes discovering, filtering, and preparing meals straightforward and engaging. Focused on crafting an intuitive user experience with organized recipe details and fast client-side interactions.',
+      contributions: [
+        'Developed the Interactive Recipe Finder application from ground up using HTML5, CSS3, and JavaScript.',
+        'Designed a responsive interface featuring clean culinary cards, ingredient lists, and intuitive step-by-step navigation.',
+        'Implemented interactive search and filter functionality allowing users to quickly explore recipes on any device.',
+        'Ensured mobile responsiveness and cross-browser consistency through modular CSS layouts and event handlers.',
+      ],
+      technologies: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'Responsive Layouts', 'Flexbox & CSS Grid', 'Git'],
+      learnings:
+        'Enhanced skills in modern web development fundamentals, clean semantic markup, flexible CSS Grid/Flexbox architecture, dynamic DOM manipulation in JavaScript, and crafting mobile-first user interfaces.',
+    },
   },
 ]
 
 const stats = [
   { label: 'B.Tech CGPA', value: '9.1 / 10' },
-  { label: 'Academic Standing', value: 'Final Year CSE' },
+  { label: 'Academic Standing', value: 'VVIT CSE' },
   { label: 'Internships', value: '2 Completed' },
 ]
 
 const certifications = [
-  { name: 'Python Programming', issuer: 'Udemy' },
-  { name: 'Operating System Basics', issuer: 'Cisco' },
-  { name: 'Java Fundamentals', issuer: 'Infosys Springboard' },
-  { name: 'Frontend Web Development', issuer: 'Coursera' },
+  {
+    name: 'Programming in Java',
+    issuer: 'NPTEL',
+    domain: 'Core Java & Problem Solving',
+    badge: 'Elite Certification',
+  },
+  {
+    name: 'Python',
+    issuer: 'Udemy',
+    domain: 'Programming & Scripting',
+    badge: 'Verified Credential',
+  },
+  {
+    name: 'Frontend Development',
+    issuer: 'Coursera',
+    domain: 'Web Development & UI',
+    badge: 'Specialization Course',
+  },
+  {
+    name: 'OS Basics',
+    issuer: 'Cisco',
+    domain: 'Operating Systems & IT',
+    badge: 'Cisco Networking Academy',
+  },
 ]
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [selectedProject, setSelectedProject] = useState(null)
+  const [selectedInternship, setSelectedInternship] = useState(null)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -118,21 +230,22 @@ function App() {
 
   useEffect(() => {
     const handleKeyDown = (e) => {
-      if (e.key === 'Escape' && selectedProject) {
-        setSelectedProject(null)
+      if (e.key === 'Escape') {
+        if (selectedProject) setSelectedProject(null)
+        if (selectedInternship) setSelectedInternship(null)
       }
     }
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [selectedProject])
+  }, [selectedProject, selectedInternship])
 
   useEffect(() => {
-    if (selectedProject) {
+    if (selectedProject || selectedInternship) {
       document.body.style.overflow = 'hidden'
     } else {
       document.body.style.overflow = ''
     }
-  }, [selectedProject])
+  }, [selectedProject, selectedInternship])
 
   const closeMenu = () => {
     setMobileMenuOpen(false)
@@ -267,15 +380,15 @@ function App() {
               <p>
                 I am a final year Computer Science Engineering student at Vasireddy Venkatadri Institute
                 of Technology with a 9.1 CGPA. My academic journey has given me solid fundamentals in
-                object-oriented programming, data structures, algorithm design, and modern database concepts.
+                Java, data structures, algorithm design, full-stack web development, and database concepts.
               </p>
             </div>
             <div className="about-card">
               <h3>Learning Journey &amp; Goals</h3>
               <p>
-                As a final year student preparing for industry roles, I approach software engineering with high
-                curiosity and a commitment to continuous growth. Having completed internships in Frontend Web Development
-                and Artificial Intelligence, I am ready to adapt quickly, learn modern frameworks, and contribute proactively to development teams.
+                As a passionate engineering student preparing for industry roles, I approach software engineering with high
+                curiosity and a commitment to continuous growth. Having completed virtual internships with Infosys Springboard (Full-Stack Development)
+                and Edunet Foundation (Front-End Web Development), I am ready to adapt quickly, learn modern frameworks, and contribute proactively to development teams.
               </p>
             </div>
           </div>
@@ -301,27 +414,86 @@ function App() {
         {/* Experience Section */}
         <section id="experience" className="section">
           <div className="section-heading">
-            <p className="eyebrow">Practical Learning</p>
-            <h2>Work Experience</h2>
+            <div className="section-heading__wrapper">
+              <div>
+                <p className="eyebrow">Practical Learning</p>
+                <h2>Internship Experience</h2>
+              </div>
+              <span className="project-count-badge">{experience.length} Internships</span>
+            </div>
           </div>
 
           <div className="timeline">
             {experience.map((item) => (
-              <article key={item.title} className="timeline-item">
+              <article key={item.id} className="timeline-item">
                 <div className="timeline-marker" aria-hidden="true" />
                 <div className="timeline-content">
                   <div className="timeline-head">
                     <div>
-                      <h3>{item.title}</h3>
-                      <p className="timeline-place">{item.place}</p>
+                      <div className="timeline-title-row">
+                        <h3 className="timeline-title">{item.title}</h3>
+                        <span className="timeline-badge">{item.type}</span>
+                      </div>
+                      <p className="timeline-place">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                          <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                          <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                        </svg>
+                        {item.place}
+                      </p>
                     </div>
                     <span className="timeline-period">{item.period}</span>
                   </div>
+
+                  <div className="timeline-project-chip">
+                    <span className="project-chip-label">Project:</span>
+                    <strong className="project-chip-name">{item.projectName}</strong>
+                  </div>
+
                   <p className="timeline-body">{item.text}</p>
+
+                  <ul className="timeline-highlights" aria-label="Internship key contributions">
+                    {item.highlights.map((bullet, i) => (
+                      <li key={i}>
+                        <span className="highlight-bullet" aria-hidden="true">▸</span>
+                        <span>{bullet}</span>
+                      </li>
+                    ))}
+                  </ul>
+
                   <div className="timeline-tags">
                     {item.skills.map((s) => (
                       <span key={s} className="tag-pill">{s}</span>
                     ))}
+                  </div>
+
+                  <div className="timeline-actions">
+                    <button
+                      type="button"
+                      className="button-sm button--outline"
+                      onClick={() => setSelectedInternship(item)}
+                      aria-label={`View more info about ${item.title}`}
+                    >
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                        <circle cx="12" cy="12" r="10" />
+                        <line x1="12" y1="16" x2="12" y2="12" />
+                        <line x1="12" y1="8" x2="12.01" y2="8" />
+                      </svg>
+                      View More Info
+                    </button>
+
+                    <a
+                      href={item.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="button-sm button--github"
+                      aria-label={`View source code for ${item.projectName} on GitHub`}
+                    >
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path fillRule="evenodd" clipRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                      </svg>
+                      View Code
+                    </a>
                   </div>
                 </div>
               </article>
@@ -393,7 +565,7 @@ function App() {
         {/* Certifications Section */}
         <section id="certifications" className="section">
           <div className="section-heading">
-            <p className="eyebrow">Verification</p>
+            <p className="eyebrow">Verification &amp; Learning</p>
             <h2>Certifications</h2>
           </div>
 
@@ -406,9 +578,13 @@ function App() {
                     <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
                   </svg>
                 </div>
-                <div>
+                <div className="cert-info">
+                  <div className="cert-meta-row">
+                    <span className="cert-issuer">{cert.issuer}</span>
+                    <span className="cert-badge-chip">{cert.badge}</span>
+                  </div>
                   <h3 className="cert-title">{cert.name}</h3>
-                  <span className="cert-issuer">{cert.issuer}</span>
+                  <span className="cert-domain">{cert.domain}</span>
                 </div>
               </div>
             ))}
@@ -539,6 +715,113 @@ function App() {
                 type="button"
                 className="button button--secondary"
                 onClick={() => setSelectedProject(null)}
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Internship & Project Details Modal (Triggered by 'View More Info') */}
+      {selectedInternship && (
+        <div
+          className="modal-backdrop"
+          onClick={() => setSelectedInternship(null)}
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="internship-modal-title"
+        >
+          <div className="modal-card modal-card--internship" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-header">
+              <div>
+                <span className="modal-tag modal-tag--internship">{selectedInternship.place} • {selectedInternship.type}</span>
+                <h3 id="internship-modal-title" className="modal-title">{selectedInternship.title}</h3>
+                <p className="modal-category">Duration: {selectedInternship.period}</p>
+              </div>
+              <button
+                type="button"
+                className="modal-close"
+                onClick={() => setSelectedInternship(null)}
+                aria-label="Close internship modal"
+              >
+                ✕
+              </button>
+            </div>
+
+            <div className="modal-body">
+              <section className="modal-section">
+                <h4>Internship Overview</h4>
+                <p>{selectedInternship.details.projectOverview || selectedInternship.text}</p>
+              </section>
+
+              <section className="modal-section">
+                <div className="modal-project-spotlight">
+                  <div className="spotlight-header">
+                    <div>
+                      <span className="spotlight-label">Internship Project Undertaken</span>
+                      <h4 className="spotlight-title">{selectedInternship.projectName}</h4>
+                      <p className="spotlight-role">Role: {selectedInternship.details.role}</p>
+                    </div>
+                    <a
+                      href={selectedInternship.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="button-sm button--github spotlight-git-btn"
+                    >
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path fillRule="evenodd" clipRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                      </svg>
+                      View Code
+                    </a>
+                  </div>
+                  <p className="spotlight-desc">{selectedInternship.text}</p>
+                </div>
+              </section>
+
+              <section className="modal-section">
+                <h4>Key Responsibilities &amp; Contributions</h4>
+                <ul className="modal-features">
+                  {selectedInternship.details.contributions.map((feat, i) => (
+                    <li key={i}>
+                      <span className="check-icon">✓</span>
+                      <span>{feat}</span>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+
+              <section className="modal-section">
+                <h4>Technologies &amp; Tools Used</h4>
+                <div className="modal-stack">
+                  {selectedInternship.details.technologies.map((tech) => (
+                    <span key={tech} className="modal-pill">{tech}</span>
+                  ))}
+                </div>
+              </section>
+
+              <section className="modal-section">
+                <h4>What I Learned from this Internship</h4>
+                <p className="modal-learned">{selectedInternship.details.learnings}</p>
+              </section>
+            </div>
+
+            <div className="modal-footer">
+              <a
+                href={selectedInternship.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button button--primary button-modal-git"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path fillRule="evenodd" clipRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                </svg>
+                View Code on GitHub
+              </a>
+              <button
+                type="button"
+                className="button button--secondary"
+                onClick={() => setSelectedInternship(null)}
               >
                 Close
               </button>
